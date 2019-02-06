@@ -19,3 +19,6 @@ This will extract Java repositories and export their information into *repositor
 7.	To execute the second python, run the following command:
 ``` python get_matching_code_files.py --username <githubusername> --repoFile repositories.txt --outputFile code.csv ```
 This will generate the final results in a *code.csv* file which would have the list of repositories along with the file names which are using the *javax.crypto* library.
+
+
+[![DOI](https://zenodo.org/badge/163851392.svg)](https://zenodo.org/badge/latestdoi/163851392)
