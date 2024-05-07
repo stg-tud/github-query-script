@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/163851392.svg)](https://zenodo.org/badge/latestdoi/163851392)
+
 # github-query-script
 
 The github-query-script consists of two independent scripts. The first script, *get_matching_repositories.py*, collects all repositories which matches to the filter criteria. Based upon these results, the second script, *get_matching_code_files.py*, generates a CSV-file with all of the in step one collected projects which use the library *javax.crypto*. 
@@ -21,4 +23,3 @@ This will extract Java repositories and export their information into *repositor
 This will generate the final results in a *code.csv* file which would have the list of repositories along with the file names which are using the *javax.crypto* library.
 
 
-[![DOI](https://zenodo.org/badge/163851392.svg)](https://zenodo.org/badge/latestdoi/163851392)
